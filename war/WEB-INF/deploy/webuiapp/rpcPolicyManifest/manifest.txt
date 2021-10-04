@@ -1,0 +1,3 @@
+# Module webuiapp
+# RPC service class, partial path of RPC policy file
+com.liu.webui.client.GreetingService, 4A8BA9311AE77A05F473856B6AAE7FA7.gwt.rpc

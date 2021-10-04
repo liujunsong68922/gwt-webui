@@ -1,0 +1,2 @@
+serviceClass: com.liu.webui.client.GreetingService
+path: 4A8BA9311AE77A05F473856B6AAE7FA7.gwt.rpc
