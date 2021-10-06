@@ -57,6 +57,14 @@
         <td id="sendButtonContainer"></td>
       </tr>
       <tr>
+        <td id="nameFieldContainer2"></td>
+        <td id="button5Container"></td>
+        <td id="button6Container"></td>
+        <td id="button7Container"></td>
+        <td id="button8Container"></td>
+        <td id="computeButtonContainer"></td>
+      </tr>
+      <tr>
         <td colspan="6" style="color:red;" id="errorLabelContainer"></td>
       </tr>
       <tr>
@@ -66,5 +74,19 @@
         <td colspan="6" style="color:red;" id="dynamicuipanel"></td>
       </tr>
     </table>
+    <script>
+    	var tempobj;
+    	function dynamiccall(obj,methodname){
+    		alert("enter dynamicall.")
+    		//对象的动态方法调用
+    		tempobj = obj;
+    		console.log(obj);
+    		var strcmd = "tempobj."+methodname+"()";
+    		alert(strcmd);
+    		var a =	eval(strcmd);
+    		alert(a);
+    	}
+    
+    </script>
   </body>
 </html>
